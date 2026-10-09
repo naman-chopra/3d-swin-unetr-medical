@@ -1,0 +1,3 @@
+# Exclude Jupyter notebooks from repository language statistics so embedded
+# pre-rendered cell outputs and slice plots do not skew the breakdown away from Python.
+*.ipynb linguist-vendored linguist-documentation
